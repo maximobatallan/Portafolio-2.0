@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from mysite.models import formulario
 from django.core.mail import send_mail
 
-from ursina import *            # this will import everything we need from ursina with just one line.
+
 from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from django.http import HttpResponseForbidden
