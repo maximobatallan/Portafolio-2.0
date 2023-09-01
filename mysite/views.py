@@ -4,10 +4,8 @@ from mysite.models import formulario
 from django.core.mail import send_mail
 
 
-from django.http import JsonResponse
-from rest_framework.decorators import api_view
 from django.http import HttpResponseForbidden
-from rest_framework.response import Response
+
 # - Homepage
 
 
